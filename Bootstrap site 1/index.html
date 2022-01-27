@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Holy City Sandwich Shop</title>
+    <meta name="description" content="The Holy City Sandwich shop is the place people of Charleston go to enjoy delicious sandwiches">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+</head>
+    <body> 
+        <!-- <main class="container bg-info">
+            <header>
+                <h1>Welcome to Bootstrap</h1>
+            </header> -->
+            <nav class="navbar sticky-top navbar-expand-sm bg-primary navbar-dark">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#links" aria-controls="links" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="navbar-brand text-warning">
+                    <img src="images/smalllogo.jpg"  class="rounded-circle mr-2">Holy City Sandwich Shop
+                </span>  
+                <div class="collapse navbar-collapse" id="links">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#top">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ingredients">Ingredients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sandwiches">Sandwiches</a></li>
+                </ul>
+                </div>   <!-- end of navbar-collapse --> 
+            </nav>
+            <main class="container">
+                <header class="jumbotron text-center fullscreen navbar-space">
+                     <section>
+                          <h1>Welcome to Holy City's Sandwiches</h1>
+                          <h3>Best Sandwiches in the Low country</h3>
+                     </section>
+                     <figure class="carousel slide" id="store_pictures" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#store_pictures" data-slide-to="0">
+                            <li data-target="#store_pictures" data-slide-to="1">
+                            <li data-target="#store_pictures" data-slide-to="2">
+                            <li data-target="#store_pictures" data-slide-to="3">
+                      </ol>
+                        <div class="carousel-inner"> 
+                            <div class="carousel-item active">
+                          <img src="images/shop.jpg" class="img-fluid" alt="Inside of shop">
+                          <div class="carousel-caption d-none d-md-block" >
+                            <h3>Plenty of Seating</h3>
+                       </div><!-- end of caption: item 1-->
+                        </div><!-- end of carousel: item 1-->
+                        <div class="carousel-item">
+                            <img src="images/shop2.jpg" class="img-fluid" alt="Food Display">
+                            <div class="carousel-caption d-none d-md-block" >
+                                <h3>Deli Items</h3>
+                           </div><!-- end of caption:item 2-->
+                       </div><!-- end of carousel: item 2-->
+                       <div class="carousel-item">
+                        <img src="images/shop3.jpg" class="img-fluid" alt="Outside Shot">
+                        <div class="carousel-caption d-none d-md-block" >
+                            <h3>Our Store Front</h3>
+                       </div><!-- end of caption:item 3-->
+                   </div><!-- end of carousel: item 3-->
+                   <div class="carousel-item">
+                    <img src="images/shop4.jpg" class="img-fluid" alt="Picture of Server">
+                    <div class="carousel-caption d-none d-md-block" >
+                        <h3>Friendly Service</h3>
+                   </div><!-- end of caption:item 4-->
+               </div><!-- end of carousel: item 4-->
+                    </div> <!-- end of carousel-inner-->
+                    <a href="#store_pictures" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#store_pictures" class="carousel-control-next" role="button" data-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                    </a>
+
+                        </figure>
+                </header>
+                <section id="about" class="container-fluid fullscreen navbar-space">
+                    <h2>About the Holy City's Sandwich Shop!</h2>
+                
+                    <p>We are specialized in delicious, well prepared sandwiches that are the best in the Low Country. Our cold cuts meats are of the highest quality shipped daily from our distributor on John's Island. We start each day baking our daily requirement of fresh baked bread for our sandwiches. </p>
+                
+                    <p>Holy City's Sandwich Shop sandwiches are made with high quality meats, served on delicious <a href="#" data-toggle="tooltip" title="Sourdough breads are what San Francisco is known for beside taste rice dishes">San Francisco</a> style breads freshly baked, we offer a choice of five different cheeses and also include "everything" (mayo, mustard, our special recipe garlic sauce, lettuce, tomato, pickles, peppers, onions) option. 
+                    There are a variety of delicious sandwich combinations that have become tried and true favorites, or build your own. We also offer a variety of freshly made salads.</p>
+                
+                    <p>When our customers walk in and smell the fresh baked bread, have a big bite of their 'made to order' sandwich made with our savory garlic sauce, and are handed a warm cookie to complete their meal - how can they not LOVE Holy City's Sandwiches</p>
+                
+                    <button type="button" class="btn btn-info mb-3 mt-popover-margin-top" data-toggle="popover" data-placement="top" title="Glutten Information"
+                    data-content="We could make our bread glutten free but then it wouldn't tast the same and our 
+                    sandwiches would suffer. Our bread it full of glutten and it tastes great. If your system can not handle glutten, ask for a sandwich bowl instead. It has all the great insides of our sandwiches without the bread.">    <!-- end of button tag -->
+                    Glutten Info
+                    </button>
+                </section> <!-- end of about section -->
+                <section id="ingredients" class="container-fluid mb-3 pb-5 bg-warning fullscreen navbar-space">
+                    <h2>Ingredients</h2>
+                    <div class="row">
+                        <article class="col-md-3 col-sm-6 text-center"> 
+                            <button class="btn btn-primary" data-toggle="collapse" 
+                            data-target="#oregeno"
+                            aria-expanded="Link to oregeno">Oregeno
+                           </button>
+                           <div id="oregeno" class="collapse">
+                            <p>Our oregno comes from Southern Italy where it is grown on a small farm and harvested  lovingly by a 90 year old women, placing each piece in a straw basket prior to shipping to America</p>
+                        </div>
+                        </article> <!-- end of oregeno -->
+                        <article class="col-md-3 col-sm-6 text-center">
+                            <button class="btn btn-primary" data-toggle="collapse" 
+                            data-target="#olive_oil"
+                            aria-expanded="Link to olive oil">Olive Oil
+                           </button>
+                           <div id="olive_oil" class="collapse">
+                            <p>Our olive oil comes from Southern Italy where it is grown on a small farm and cold pressed prior to shipping to America</p>
+                        </div>
+                        </article> <!-- end of Olive Oil -->
+                        <article class="col-md-3 col-sm-6 text-center">
+                            <button class="btn btn-primary" data-toggle="collapse" 
+                            data-target="#sea_salt"
+                            aria-expanded="Link to sea salt">Sea Salt
+                           </button>
+                           <div id="sea_salt" class="collapse">
+                            <p>Our sea salt comes from Southern Italy where it is made by drawing sea water and after drying it is safely packaged prior to shipping to America</p>
+                        </div>
+                        </article> <!-- end of Sea Salt -->
+                        <article class="col-md-3 col-sm-6 text-center">
+                            <button class="btn btn-primary" data-toggle="collapse" 
+                            data-target="#black_pepper"
+                            aria-expanded="Link to black pepper">Black Pepper
+                           </button>
+                           <div id="black_pepper" class="collapse">
+                            <p>Our black pepper locally grown right here in the lowcountry.</p>
+                        </div>
+                        </article> <!-- end of Black Pepper -->
+
+                    </div>
+                </section>
+           </main>
+            <section  id="sandwiches" class="container fullscreen navbar-space"> 
+                <div class="row">
+                <article class="col-lg-3 col-md-6 col-xs-12 card mb-3 card-info bg-primary">
+                    <h3 class="text-center">Specialty Sandwich</h3>
+                    <img src="images/sandwich1.jpg">
+                    <div class="card-block">
+                    <h2 class="card-title">Triple Decker Ham</h2>
+                    <p class="card-text">Ham, two types of cheeses, bacon, lettuce, tomatoes, ham between three slices of our freshly baked bread.</p>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-md-6 col-xs-12 card mb-3 card-info bg-primary">
+                    <h3 class="text-center">Healthy Chicken</h3>
+                    <img src="images/sandwich2.jpg">
+                    <div class="card-block">
+                    <h2 class="card-title">Chicken Sub Sandwich</h2>
+                    <p class="card-text">Chicken breast that is slowly roasted, bacon, lettuce, tomatoes, and guacamole between our freshly baked sub roll.</p>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-md-6 col-xs-12 card mb-3 card-info bg-primary">
+                    <h3 class="text-center">Grass Fed Veal</h3>
+                    <img src="images/sandwich4.jpg">
+                    <div class="card-block">
+                    <h2 class="card-title">Breaded Veal Sandwich</h2>
+                    <p class="card-text"> Freshly buchered lean veal, salad leaves, fresh tomatoes and homemade tartar sauce on our freshly baked bread.</p>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-md-6 col-xs-12 card mb-3 card-info bg-primary">
+                    <h3 class="text-center">Spicy Shrimp</h3>
+                    <img src="images/sandwich3.jpg">
+                    <div class="card-block">
+                    <h2 class="card-title">Buffalo Shrimp Hogie</h2>
+                    <p class="card-text"> Freshly caught native shrimp simmered in buffalo sauce, lettuce, and home made tartar sauce on our freshly baked sub roll.</p>
+                    </div>
+                </article>
+            </section>
+            <footer class="page-footer font-small blue pt-4">
+                <div class="text-center py-3">Address: 2000 Rivers Ave Charleston, SC 29406 <br>
+                    <a href="https://dfyall.com/">Email: dfyall@gmail.com</a>    <p>Phone: 843-444-9999</p>
+                  </div>
+            </footer>
+        </main>
+</head>
+    
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+            <!-- initializes popovers -->
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+    </body>
+</html>
